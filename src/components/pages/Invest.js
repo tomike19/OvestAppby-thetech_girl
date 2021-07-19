@@ -46,7 +46,8 @@ const Invest = () => {
                   fontWeight: "normal",
                   lineHeight: "30px",
                   borderRadius: "4px 4px 4px 0px",
-                  marginTop: "26px",
+                  marginTop: "20px",
+                  marginLeft:"-1px"
                 }}
               >
                 Get Started Now
@@ -55,6 +56,11 @@ const Invest = () => {
             <div className="investimage-wrapper">
               <img src={investImage} alt="" className="invest-image" />
             </div>
+          </div>
+          <div style={{
+            backgroundColor:"white",
+          }}>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           </div>
         </div>
       </DefaultLayout>
