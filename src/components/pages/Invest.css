@@ -39,16 +39,17 @@
     /* transition: transform 0.3s ease-in-out;
     transform: rotate(10deg) scale(1); */
   }
+  
 }
 @media (min-width: 768px) {
   .invest-section {
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-left: 15px;
   }
 
   .invest-wrapper {
-    height: 125vh;
+    /* height: 125vh; */
     background-color: #f0f6ff;
   }
 
@@ -65,13 +66,12 @@
   }
 
   .invest-image {
-    width: 400px;
+    width: 450px;
+    margin-top: 25px;
     transform: translateY(0px);
     animation: float 4s ease-in-out infinite;
   }
 
-  .invest-image:hover {
-  }
   @keyframes float {
     0% {
       transform: translateY(0px);
@@ -107,13 +107,67 @@
     font-size: 1.6rem;
     line-height: 28px;
     color: #666666;
+    width: 90%;
+  }
+
+  /*INVESTMENT RATE STYLES*/
+  
+  .invest-text {
+    width: 196px;
+    height: 40px;
+    background: rgba(239, 210, 171, 0.39);
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: -0.02em;
+    color: #fd740e;
+  }
+
+  .invest-texts {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 32px;
+    color: #121212;
     width: 80%;
   }
+
+  .vl {
+    border-left: 2px solid rgba(159, 191, 237, 0.68);
+    height: 60px;
+    margin-left: 30px;
+  }
+
+  .investment-rate-section {
+    display: flex;
+    margin-top: 34px;
+    /* justify-content: space-between; */
+  }
+  .invest-section-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #121212;
+    width: 80%;
+  }
+
+  .invest-rate-body {
+    margin-top: 21px;
+    /* padding-left: 0px; */
+  }
 }
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   .invest-wrapper {
     background-color: #f0f6ff;
-    height: 170vh;
+    /* height: 180vh; */
   }
   .invest-section {
     display: flex;
@@ -122,8 +176,8 @@
   }
 
   .investimage-wrapper {
-    /* background-image: linear-gradient(rgba(240, 246, 255, 0.836), rgba(240, 246, 255, 0.774)),
-      url(../Assets/Ellipse2.png); */
+    background-image: linear-gradient(rgba(240, 246, 255, 0.836), rgba(240, 246, 255, 0.774)),
+      url(../Assets/Ellipse2.png);
     /* height: 70%; */
     background-size: 30vw;
     background-repeat: no-repeat;
@@ -134,13 +188,11 @@
   }
 
   .invest-image {
-    width: 500px;
+    width: 600px;
     transform: translateY(0px);
     animation: float 4s ease-in-out infinite;
   }
 
-  .invest-image:hover {
-  }
   @keyframes float {
     0% {
       transform: translateY(0px);
@@ -157,7 +209,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 4.2rem;
+    font-size: 4.8rem;
     line-height: 76px;
     letter-spacing: -0.02em;
     color: #121212;
@@ -176,6 +228,74 @@
     font-size: 1.6rem;
     line-height: 28px;
     color: #666666;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  /* Investment Rate Session*/
+
+  .investment-rate-section {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .vl {
+    border-left: 2px solid rgba(159, 191, 237, 0.68);
+    height: 134px;
+    margin-left: 30px;
+  }
+
+  .invest-rate {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+
+  .invest-rate-image {
+    margin-top: 200px;
+    width: 35vw;
+  }
+
+  .invest-rate-body {
+    padding-left: 200px;
+  }
+  .invest-details {
+    padding-top: 97px;
+  }
+
+  .invest-text {
+    width: 196px;
+    height: 40px;
+    background: rgba(239, 210, 171, 0.39);
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: -0.02em;
+    color: #fd740e;
+  }
+
+  .invest-texts {
+    font-size: 3rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    color: #121212;
+    width: 90%;
+  }
+
+  .invest-section-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #121212;
     width: 80%;
   }
 }

@@ -1,0 +1,56 @@
+@media(max-width:768px){
+  .invest-rate-image {
+    display: none;
+  }
+  .invest-text {
+    width: 196px;
+    height: 40px;
+    background: rgba(239, 210, 171, 0.39);
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: -0.02em;
+    color: #fd740e;
+  }
+
+  .invest-texts {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 32px;
+    color: #121212;
+    width: 80%;
+  }
+
+  .vl {
+    border-left: 2px solid rgba(159, 191, 237, 0.68);
+    height: 60px;
+    margin-left: 30px;
+  }
+
+  .investment-rate-section {
+    display: flex;
+    margin-top: 34px;
+    /* justify-content: space-between; */
+  }
+  .invest-section-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #121212;
+    width: 80%;
+  }
+
+  .invest-rate-body {
+    padding-left: 20px;
+    margin-top: 21px;
+  }
+}
