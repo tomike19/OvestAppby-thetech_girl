@@ -1,6 +1,6 @@
 .invest-wrapper {
   background-color: #f0f6ff;
-  height: 125vh;
+  /* height: 125vh; */
 }
 
 @media (min-width: 768px) {
@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
+    align-items: center;
+    justify-content: center;
   }
 
   .investimage-wrapper {
