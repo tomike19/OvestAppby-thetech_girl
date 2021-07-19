@@ -1,0 +1,334 @@
+/* savest form */
+
+.savestform > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+  margin-bottom: 25px;
+}
+
+.savestform > p {
+  margin-top: 25px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+}
+
+.savestform-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+  margin-bottom: 33px;
+}
+
+.savestform-p > span {
+  color: #fe9f59;
+}
+
+/* savest notice */
+.notice-head > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+  margin-bottom: 18px;
+}
+
+.notice-head > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+  margin-top: 9px;
+}
+
+.decide-session {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.No {
+  cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #eb5757;
+}
+
+.yes {
+  cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Primary color */
+
+  color: #0768f6;
+}
+
+/* invest plan */
+.investplan-inner {
+  /* overflow-y: scroll; */
+}
+
+.investplan-header > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+}
+
+.investplan-header > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+}
+
+.investplan-inner > .investcard1 {
+  /* width: 395px;
+  height: 171px; */
+  background-size: 10vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../../../../Assets/team1.png");
+  margin-top: 40px;
+  padding: 10px;
+
+  background: rgba(159, 191, 237, 0.13);
+}
+
+.savestplanhead {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+.savestplanhead > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  color: #002163;
+}
+.savestplanhead > small {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
+
+  letter-spacing: 0.03em;
+
+  color: #002163;
+}
+
+.savestplanbody {
+  padding: 10px 50px 10px 0px;
+}
+.savestplanbody > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: #666666;
+}
+
+.savestplanbody > p > span {
+  color: #faa567;
+}
+
+.savestplanbody > footer {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.03em;
+
+  color: #0768f6;
+}
+.savestplanbody > footer > i {
+  padding-left: 9px;
+  color: #0768f6;
+}
+
+/* BAnkAccountMethod */
+
+.bam-h5 {
+  margin-top: 50px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+}
+
+.bam-p {
+  margin-top: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+
+.bnm-notice {
+  background: #f4f8fd;
+  border: 1px solid #64a0f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 9px 31px 2px 32px;
+  margin-top: 25px;
+}
+
+.bnm-notice > p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #999999;
+}
+
+/* card password */
+
+.cardpassword {
+  height: 400px;
+}
+
+.cardpassword-inner {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardpassword-inner > button {
+  background: none;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.cardpassword-inner > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-bottom: 10px;
+}
+
+.cardpassword-inner > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  /* margin-bottom: px; */
+  text-align: center;
+}

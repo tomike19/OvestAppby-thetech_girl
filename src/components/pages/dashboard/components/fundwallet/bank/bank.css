@@ -1,0 +1,280 @@
+/* bank transfer */
+.Bank-transfer {
+  margin-left: 26px;
+  margin-top: 40px;
+}
+.bank-transfer-header > h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+}
+
+.bank-transfer-header > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 143% */
+  text-align: left;
+  width: 380px;
+  height: 40px;
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+}
+
+.account-information {
+  margin-top: 60px;
+  background: #f4f8fd;
+  border: 1px solid #64a0f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 375px;
+  height: 160px;
+}
+
+.account-information > div {
+  margin: 24px 60px 17px 47px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  /* or 107% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+}
+
+.accnumbercopy {
+  display: flex;
+  justify-content: space-between;
+}
+.acct-number {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* Body header color */
+
+  color: #121212;
+}
+
+.bank-transfer-btn {
+  border: none;
+  border-radius: 4px;
+  margin-top: 90px;
+  width: 375px;
+  height: 52px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background: #0768f6;
+}
+
+/* bank transfer details */
+
+.banktransferdetails-header > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-left: 25px;
+}
+
+.banktransferdetails-header > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 25px;
+  width: 380px;
+  height: 40px;
+  /* or 143% */
+
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+}
+
+/* bank transfer verify */
+
+.banktransferverify {
+  width: 90%;
+  margin: auto;
+}
+
+.verify-payment-header > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+}
+
+.verify-payment-header > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  width: 380px;
+  height: 40px;
+  /* or 143% */
+
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+  margin-bottom: 40px;
+}
+
+.verify-payment-card {
+  border: 1px dashed #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 379px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+/* .verify-payment-card > button {
+  background: none;
+  border: none;
+  outline: none;
+} */
+
+input[type="file"] {
+  text-indent: 1em;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.custom-file-upload {
+  margin-bottom: 0;
+}
+.inputfile {
+  border: none;
+  background: none;
+}
+.verify-payment-card > label > img {
+  height: 28px;
+  /* margin-bottom: 23px; */
+  cursor: pointer;
+}
+
+.verify-payment-card > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  /* body text color */
+
+  color: #666666;
+  width: 279px;
+  height: 40px;
+}
+
+.verify-payment-footer > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  /* Secondary color */
+
+  color: #fd740e;
+  margin-bottom: 76px;
+}
+
+/* bank successs */
+
+.banktranfersuccess {
+  border-radius: 4px;
+  position: absolute;
+  width: 541px;
+  height: 309px;
+  margin-left: -400px;
+  top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 30px; */
+  background-color: #ffffff;
+}
+
+.banktranfersuccess > p {
+  width: 409px;
+  height: 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+  margin-top: 32px;
+  margin-bottom: 22px;
+}
+
+.banktranfersuccess > img {
+  height: 46px;
+}

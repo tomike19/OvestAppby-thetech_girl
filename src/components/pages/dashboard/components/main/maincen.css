@@ -1,0 +1,35 @@
+.recent-transact {
+  background: #ffffff;
+  margin-top: 16px;
+}
+.recent-transact > div {
+  width: 95%;
+  padding-top: 16px;
+  margin: 0 auto 0 auto;
+}
+.recentT {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recentP {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.vAll {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #fd740e;
+}

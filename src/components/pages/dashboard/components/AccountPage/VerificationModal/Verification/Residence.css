@@ -1,0 +1,101 @@
+.residence-section {
+ width: 90%;
+ margin: auto;
+}
+
+.proof-residence {
+  display: flex;
+  justify-content: space-between;
+}
+
+.residence-text {
+  display: flex;
+}
+
+.proof-section {
+  width: 396px;
+  height: 48px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 28px;
+}
+
+.residence-header h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+  margin-top: 27px;
+}
+
+.residence-header p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+.residence-image {
+  margin-left: 20px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.residence-text p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+  padding-left: 19px;
+  margin-top: 15px;
+}
+
+.file-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 15px;
+  color: #666666;
+}
+
+.document-text p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  padding-top: 24px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.residence-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}
+.residence-label2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #121212;
+
+}
+
+.residence-input{
+  margin-left: 74px;
+}

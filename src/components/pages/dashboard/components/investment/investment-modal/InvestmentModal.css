@@ -1,0 +1,13 @@
+/* .investpages {
+    overflow-y: auto;
+} */
+.closemodal {
+    background:none;
+    border: none;
+}
+.current-stage  > div{
+    width: 438px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+}

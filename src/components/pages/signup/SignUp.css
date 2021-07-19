@@ -1,0 +1,18 @@
+.form-icon {
+  margin-top: 90px;
+}
+.form-icon > img {
+  /* height: 30px; */
+  margin-left: 26px;
+}
+
+.formicon1 {
+  height: 40px;
+}
+.formicon2 {
+  height: 33px;
+}
+
+.react-tel-input .form-control {
+  width: 100px !important;
+}

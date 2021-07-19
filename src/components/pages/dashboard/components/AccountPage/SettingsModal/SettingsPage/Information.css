@@ -1,0 +1,62 @@
+.information-modal{
+   position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.information-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.informationmodal-head {
+  background-color: #fff;
+  margin-left: auto;
+  width: 438px;
+  height: 100vh;
+}
+
+.information{
+  height: 90vh;
+}
+
+
+.info-image{
+  float: right;
+  margin-top: -50px;
+  cursor: pointer;
+  margin-right:25px ;
+}
+.button-group{
+  padding-bottom: 40px;
+}
+
+.information p{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 1.8rem;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #121212;
+margin-top: 27px;
+margin-left: 26px;
+}
+
+.formSection{
+  margin-top: 19px;
+}
+
+
+.security-input{
+  width: 40%;
+}

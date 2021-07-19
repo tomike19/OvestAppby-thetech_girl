@@ -1,0 +1,16 @@
+.FooterContainer {
+  background-position: right;
+  background-size: 40vw;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.8)), url(../Assets/Ellipse2.png);
+  height: 100%;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .FooterContainer {
+    background: none;
+  }
+}

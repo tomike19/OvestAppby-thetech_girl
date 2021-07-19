@@ -1,0 +1,201 @@
+.get-started {
+    font-size: 1.6rem;
+    line-height: 19px; 
+    letter-spacing: 0.03em;
+    color: #666666;
+}
+.parent-silverinvestment {
+    margin-left: -2rem;
+}
+.silver-investment {
+    width: 508px;
+    height: 199px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.silverinvestment-h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #002163;
+}
+.silverinvestment-p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #666666;
+}
+.silverinvestment-p span{
+    color: #FD740E;
+}
+.silver-investmentchild {
+    width: 60%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.silverinvestment-img {
+    width: 25%;
+    margin-left: 2rem;
+}
+.silverinvestment-button {
+    width: 149px;
+    height: 40px;
+    background: #0768F6;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px 4px 4px 0px;
+}
+.parent-allinvestment {
+    margin-left: -2rem;
+}
+.all-investment {
+    width: 598px;
+    height: 199px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.allinvestment-h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #002163;
+}
+.allinvestment-p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #666666;
+    margin-top: 1rem;
+}
+.allinvestment-p span{
+    color: #FD740E;
+}
+.all-investmentchild {
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.allinvestment-img {
+    width: 22%;
+    margin-left: 2rem;
+}
+.allinvestment-button {
+    width: 149px;
+    height: 40px;
+    background: #0768F6;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px 4px 4px 0px;
+    margin-top: 4rem;
+}
+
+.gold-investment {
+    width: 508px;
+    height: 199px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 2rem;
+}
+.special-package {
+    width: 508px;
+    height: 199px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 2rem;
+}
+.balance-sheet {
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.balance-plan {
+    font-size: 1.3rem;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #DD0707;
+    margin-left: 6rem;
+}
+.balance-countdown {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #666666;
+    margin-top: 2rem;
+}
+.balance-naira {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #0768F6;
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+.balance-p {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #666666;
+    margin-left: 8.3rem;
+}
+.silverinvestmentmodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(153, 153, 153, 0.48);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    z-index: 999;
+}
+.silverinvestmentmodal:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.investmodal-head {
+    background-color: #fff;
+    margin-left: auto;
+    width: 438px;
+    height: 100vh;
+}
+
+.specialinvestmentmodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(153, 153, 153, 0.48);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    z-index: 999;
+}
+.specialinvestmentmodal:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}

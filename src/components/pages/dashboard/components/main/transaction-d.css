@@ -1,0 +1,54 @@
+.transactionD {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transactionD-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.transactionD-left > div {
+  flex-direction: column;
+  align-content: center;
+  margin-left: 16px;
+}
+
+.wallet-status {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: right;
+}
+.wallet-amount {
+  font-size: 1.4rem;
+  font-weight: ;
+  line-height: 1.9rem;
+}
+
+.wallet-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  color: #121212;
+}
+.date {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #666666;
+}

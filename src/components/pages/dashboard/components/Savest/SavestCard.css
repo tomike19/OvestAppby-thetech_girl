@@ -1,0 +1,129 @@
+.savestSesson {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.savestCard {
+  width: 320px;
+  max-height: 138px;
+  background: url("../../assets/green.png");
+  border-radius: 4px 4px 4px 0px;
+  /* margin-right: 2rem; */
+}
+
+.saveCard {
+  width: 320px;
+  max-height: 138px;
+  background: #ffffff;
+  border-radius: 4px 4px 4px 0px;
+  /* margin-top: 40px; */
+  /* margin-left: 2rem; */
+}
+.savestCard1 {
+  /* margin-top: 40px; */
+  width: 320px;
+  max-height: 138px;
+  background: url("../../assets/green.png");
+  border-radius: 4px 4px 4px 0px;
+  /* margin-right: 2rem; */
+}
+
+.savestImage {
+  background-color: #f3f5f7;
+  width: 47px;
+  height: 47px;
+  border-radius: 30px;
+  border: none;
+  position: relative;
+  top: 0.8rem;
+  margin: 0px 13.5rem 12px 13.5rem;
+}
+
+.saveImage {
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+.saveImg {
+  margin-left: 0.95rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.savestCard h6 {
+  margin-top: 2rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.savestCard p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 8px;
+}
+.savestCard1 h6 {
+  margin-top: 2rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.savestCard1 p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.portfolioText {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 15px;
+  text-align: center !important;
+  letter-spacing: 0.03em;
+  color: #dadada;
+  position: relative;
+  top: -10px;
+  margin-left: 80px;
+}
+
+.create-savest {
+text-align: center;
+margin-top: 3.5rem;
+}
+.create-savestplan {
+  margin-top: 2rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}

@@ -1,0 +1,52 @@
+.detailsSession {
+  /* margin-top: 3px; */
+}
+.detailsPage {
+  display: flex;
+  justify-content: space-between;
+ position: relative;
+ right: 10px;
+}
+.transDetails {
+  display: flex;
+  /* margin-left: 10px; */
+}
+.detailsCash {
+  margin-right: 2px;
+}
+.detailsCash p {
+  position: relative;
+  left: -30px;
+  margin-top: 15px;
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.03em
+}
+
+.detailsText {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.detailsTexts {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+
+hr{
+  color:red;
+}

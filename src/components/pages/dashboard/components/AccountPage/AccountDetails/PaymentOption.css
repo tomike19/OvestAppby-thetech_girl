@@ -1,0 +1,57 @@
+.payment-page {
+  margin-left: 26px;
+height: 90vh;
+
+}
+
+.paymentOption {
+  display: flex;
+  justify-content: space-between;
+  background: #e7eef9;
+  border-radius: 4px;
+  width: 391px;
+  height: 54px;
+  margin-top: 25px;
+}
+
+.payment-details {
+  display: flex;
+}
+
+.payment-header h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+  margin-top: 18px;
+}
+.payment-header p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 1.2rem;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+
+.payment-details img {
+  width: 20px;
+  height: 20px;
+  margin: 17px 0px 22px 22px;
+}
+.payment-details p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+ color: #002163;
+ margin-left: 22px;
+ margin-top: 17px;
+}

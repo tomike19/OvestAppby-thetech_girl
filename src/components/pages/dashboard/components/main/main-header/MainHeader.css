@@ -1,0 +1,37 @@
+.main__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__title > img {
+  max-height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.main__greeting > h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;  
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  color: #121212;
+}
+
+.main__greeting > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #666666;
+}

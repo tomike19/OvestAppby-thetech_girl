@@ -1,0 +1,37 @@
+.transactionSession{
+  width: 690px;
+  height: 420px;
+  background-color: #ffffff;
+  margin-top: 35px;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.transactionTitle{
+  display: flex;
+  justify-content: space-between;
+}
+.transactionTitle p{ 
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 1.8rem;
+margin-left: 16px;
+margin-top: 1.6rem;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #121212;
+}
+.transactionTitle span{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+color: #FD740E;
+margin-right:26px ;
+margin-top: 1.6rem;
+}

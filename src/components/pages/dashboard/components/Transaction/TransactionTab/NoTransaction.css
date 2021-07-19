@@ -1,0 +1,25 @@
+.alltransaction-img {
+    margin-top: 63px;
+}
+.align-img {
+    text-align: center ;
+}
+.notransactions {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #0768F6;
+    margin-top: 4rem;
+}
+.no-orders {
+    width: 498px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #666666;
+}

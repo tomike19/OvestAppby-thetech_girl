@@ -1,0 +1,79 @@
+.verification {
+ width: 90%;
+ margin: auto;
+}
+.verification h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+  margin-top: 27px;
+}
+.verified-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 12px;
+}
+.verificationSection {
+  display: flex;
+  justify-content: space-between;
+  width: 391px;
+  height: 64px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  margin-top: 21px;
+  border-radius: 4px 4px 4px 0px;
+  cursor: pointer;
+}
+
+.Details-text{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 1.6rem;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #121212;
+margin-top: 13px;
+margin-left: 18px;
+}
+.details-paragraph{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #666666;
+margin-left: 18px;
+margin-top: -7px;
+
+}
+
+.verificationDetails img{
+  margin-top: 21px;
+  margin-left:24px ;
+  margin-bottom: 21px;
+}
+
+.verificationDetails {
+  display: flex;
+}
+
+.arrow-right{
+  margin-top: 28px;
+  margin-right: 28px;
+}
+
+.check-icon{
+    margin-top: 20px;
+  margin-right: 28px;
+}

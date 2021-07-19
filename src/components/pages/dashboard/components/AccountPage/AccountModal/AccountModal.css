@@ -1,0 +1,12 @@
+.Account-page{
+     /* position: absolute; */
+  width: 438px;
+  height: 100vh;
+  /* margin-left: 842px; */
+  /* left: 1002px; */
+  top: 0px;
+/* overflow-y: auto; */
+  background: #ffffff;
+  float: right;
+  /* box-shadow: 1px 0px 20px rgba(124, 1, 1, 0.34); */
+}

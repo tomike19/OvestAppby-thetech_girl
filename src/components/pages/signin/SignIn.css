@@ -1,0 +1,15 @@
+.form-icon {
+  margin-top: 20px;
+}
+.form-icon > img {
+  cursor: pointer;
+  /* height: 30px; */
+  margin-left: 26px;
+}
+
+.formicon1 {
+  height: 40px;
+}
+.formicon2 {
+  height: 33px;
+}

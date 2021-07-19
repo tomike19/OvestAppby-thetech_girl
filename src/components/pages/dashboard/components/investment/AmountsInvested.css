@@ -1,0 +1,48 @@
+.amounts-invested {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.amountsinvested-card {
+  background: url("../../assets/Rectangle 62.svg");
+  width: 320px;
+  height: 138px;
+  /* margin-right: 2rem; */
+  border-radius: 4px 4px 4px 0px;
+}
+.icon-image {
+  background-color: #f3f5f7;
+  border-radius: 30px;
+  padding: 2%;
+}
+.totalinvestment {
+  margin-top: 0.8rem;
+  text-align: center;
+}
+.card-tit {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin: 9px;
+}
+.amount {
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin: 0px;
+}
+.mini-amount {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #dadada;
+}

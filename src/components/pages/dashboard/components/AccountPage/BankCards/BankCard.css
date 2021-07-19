@@ -1,0 +1,424 @@
+.bank-page h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+}
+
+.bank-page p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 12px;
+}
+
+.bank-details {
+  width: 296px;
+  height: 143px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.bank-icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 57px;
+}
+
+.atm-card{
+  margin-top: 8px;
+  margin-left: 27px;
+}
+
+.delete-details{
+  display: flex;
+  margin-top: 26px;
+  margin-left: 27px;
+}
+
+.delete-details p{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;
+line-height: 15px;
+letter-spacing: 0.03em;
+color: #DD0707;
+}
+
+.delete-body{
+  width: 335px;
+height: 143px;
+background: #FAFAFA;
+border-radius: 8px;
+margin-left: 27px;
+margin-top: 8px;
+}
+.bank-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+  margin-top: 19px;
+}
+
+
+.info-text h1{
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 1.8rem;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FD740E;
+padding-top: 24px;
+}
+
+
+.info-text p{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 24px;
+text-align: center;
+color: #666666;
+padding-top: 13px;
+width: 90%;
+}
+/* AddBANK Modal*/
+.addbank-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.addbank-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.accountmodal-head {
+  background-color: #fff;
+  margin-left: auto;
+  width: 438px;
+  height: 100vh;
+}
+
+/* ADD BANK ACCOUNT STYLES*/
+.bank-select {
+  width: 380px;
+  height: 56px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  padding-left: 25px;
+  padding-right: 50px !important;
+}
+
+.bank_text {
+  margin-top: 34px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  padding-left: 25px;
+}
+.button-group{
+  padding-top: 30px;
+}
+/*CONFIRM BANK STYLES*/
+
+.confirm-section {
+  width: 90%;
+  margin: auto;
+}
+.confirm-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-top: 34px;
+}
+
+.confirm-details {
+  width: 391px;
+  height: 127px;
+  background: #f4f8fd;
+  border: 1px solid #64a0f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 37px;
+  text-align: center;
+}
+
+.confirm-details > h6 {
+  padding-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+
+.confirm-texts {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 15px;
+}
+
+.confirm-access {
+  font-size: 1.4rem;
+  margin-top: -10px;
+  color: #666666;
+}
+
+/*Success Page Style */
+.confirmbank__success-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  transition: all 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.confirm__success-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 541px;
+  height: 309px;
+  background: #fff;
+}
+.success-info {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.bank-image {
+  margin-top: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.closemodal-btn {
+  background: none;
+  border: none;
+  border-radius: none !important;
+}
+
+.confirm-close-modal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bank-success-text{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #666666;
+margin-top: 32px;
+}
+
+
+/* CRYPTO PAGE STYLES*/
+.crypto-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.crypto-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.accountmodal-head {
+  background-color: #fff;
+  margin-left: auto;
+  width: 438px;
+  height: 100vh;
+}
+
+
+.crypto-form{
+  margin-top: 40px;
+}
+
+.crypto-section h1{
+  padding-top: 34px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+margin-left: 27px;
+letter-spacing: 0.03em;
+color: #121212;
+}
+
+
+.details-nebbix{
+  width: 336px;
+  height: 138px;
+  background: #F4F8FD;
+  border: 1px solid #64A0F7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 13px;
+  margin-left: 27px;
+}
+.crypto-details{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right:25px ;
+}
+
+.crypto-details p{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #666666;
+}
+
+
+
+/* CARD MODAL STYLES*/
+.bankcard-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.bankcard-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.accountmodal-head {
+  background-color: #fff;
+  margin-left: auto;
+  width: 438px;
+  height: 100vh;
+}
+
+
+.bankCard-section{
+  width: 90%;
+  margin: auto;
+}
+.card-input{
+  display: flex;
+}
+
+.input-card{
+  width: 126px;
+height: 48px;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 4px;
+margin-top: 25px;
+/* padding-left: 26px;
+padding-right: 21px; */
+}
+
+.bankCard-section h1{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+padding-top: 34px;
+letter-spacing: 0.03em;
+color: #121212;
+}
+
+.bankCard-section p{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+padding-top: 9px;
+letter-spacing: 0.03em;
+color: #666666;
+
+}

@@ -1,0 +1,123 @@
+.selectlocation-h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.preferred-location {
+  margin-top: 4rem;
+}
+select {
+  width: 396px;
+  height: 48px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-right: 1rem;
+}
+.ownership-p {
+  height: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #121212;
+  padding: 1rem;
+}
+.benefits {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  margin-top: 4rem;
+  color: #666666;
+}
+.sp-span span {
+  color: #fd740e;
+}
+.cash-payout {
+  padding: 2rem;
+}
+
+/* landvest ibadan */
+.landvest-location {
+  width: 396px;
+  height: 227px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.landvest-flex {
+  display: flex;
+  padding: 1rem;
+}
+.landvest-p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  padding: 1rem;
+}
+.landvest-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-left: 1rem;
+}
+.landvest-location span {
+  color: #fd740e;
+}
+.landvest-button {
+  width: 103px;
+  height: 40px;
+  background: #0768f6;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  float: right;
+  margin-right: 1rem;
+}
+
+/* invest now */
+.investamount-money {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #038830;
+}
+.roi-info {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0, 48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.roi-info :target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.roiInfo-head {
+  background-color: black;
+  margin-left: auto;
+  width: 438px;
+  height: 400px;
+}

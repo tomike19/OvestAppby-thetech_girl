@@ -1,0 +1,267 @@
+.card-funding {
+  margin-left: 25px;
+}
+
+.card-funding-header > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+  margin-top: 33px;
+  margin-left: 18px;
+}
+
+.card-funding-header > p {
+  margin-top: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+  margin-left: 18px;
+}
+
+.card-funding-body > p {
+  margin-top: 54px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+  margin-left: 18px;
+  width: 311px;
+  height: 40px;
+}
+
+/* add new card*/
+.addnewcard {
+  margin-left: 25px;
+}
+.addnewcard-header > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.addnewcard-header > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: 0.03em;
+
+  color: #666666;
+}
+
+.addnewcard-body > p {
+  margin-top: 43px;
+  margin-bottom: 54px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+}
+.addnewcard-body > p > span {
+  color: #fd852c;
+}
+.addcard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.addcard > .addcardicon {
+  height: 15px;
+}
+.addcard > p {
+  margin-top: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+  margin-left: 28px;
+}
+
+.addcard > .plus {
+  height: 15px;
+  margin-left: 77px;
+}
+
+/* card payment input */
+.cardpaymentinput {
+  position: absolute;
+  right: 110%;
+  top: 20%;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.cardpaymentwrapper {
+  margin: 16px auto 0 auto;
+  width: 90%;
+}
+.cardpaymentinput-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardcloseicon {
+  margin-bottom: 20px;
+}
+.cardpaymentinput-header {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.cardpaymentinput-header > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #121212;
+}
+
+.cardpaymentinput-header > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #666666;
+}
+
+.flutter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fluter-btn {
+  cursor: pointer;
+  margin-top: 15px;
+  background: #121212;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 195px;
+  height: 30px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+
+  /* Secondary color */
+
+  color: #fd740e;
+}
+.fluter-btn > img {
+  margin-right: 10px;
+}
+/* success session */
+.cardpaymentsuccess {
+  position: absolute;
+  width: 453px;
+  height: 309px;
+  right: 110%;
+  top: 20%;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.cardsuccesswrapper {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+.closemodaliconsucess-btn {
+  border: none;
+  background: none;
+  align-self: flex-end;
+}
+.cardsuccesswrapper > img {
+  height: 45px;
+}
+
+.cardsuccesswrapper > p {
+  margin-top: 33px;
+  margin-bottom: 22px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+}
+
+.cardsuccesswrapper > p > span {
+  color: #fd852c;
+}

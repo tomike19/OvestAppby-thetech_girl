@@ -1,0 +1,39 @@
+.noinvestment-img {
+    margin-top: 63px;
+}
+.align-img {
+margin-left: 30rem;
+}
+.nomatured {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #0768F6;
+    margin-top: 4rem;
+    margin-left: 30rem;
+    width: 272px;
+}
+.no-maturedyet {
+    width: 498px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #666666;
+    margin-left: 20rem;
+}
+.nomatured-button {
+    width: 194px;
+    height: 52px;
+    background: #0768F6;
+    margin-left: 35rem;
+    margin-top: 2rem;
+    border: none;
+    color: #fff;
+    font-size: 1.4rem;
+
+}

@@ -1,0 +1,97 @@
+.team-session {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.team-session-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-session-header > h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+  /* identical to box height, or 89% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  /* Body header color */
+
+  color: #121212;
+  margin-top: 120px;
+  margin-bottom: 90px;
+}
+
+/* .contained {
+  width: 90% !important;
+  margin: 2rem auto !important;
+}
+
+.contained > h2 {
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 3.2rem;
+  color: #121212;
+  margin-bottom: 3rem;
+}
+.team-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .team-image {
+    grid-template-columns: 1fr 1fr;
+  }
+  .team-img {
+    height: 2rem;
+    object-fit: contain;
+    margin-left: 3rem;
+  }
+}
+.image-sec {
+  margin-bottom: 8rem;
+}
+.image-sec > h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1.4rem;
+
+  color: #121212;
+}
+.image-sec p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: #666666;
+}
+.team-img {
+  height: 25rem;
+  object-fit: contain;
+  margin-left: 10rem;
+} */

@@ -1,0 +1,125 @@
+.Savings {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 421px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: -52px;
+  margin-left: 20px;
+}
+.Savings-details {
+  margin-left: 24px;
+}
+
+.infoText {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 34px;
+  font-size: 1.8rem;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #121212;
+  position: relative;
+  right: 14px;
+}
+.start-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 39px;
+}
+
+.withdraw-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.textMonth {
+  color: black;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  margin-top: 12px;
+}
+
+.activeText {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #038830;
+  margin-top: 39px;
+  position: relative;
+  left: 60px;
+  /* margin-left: 125px; */
+}
+
+.withdraw-texts {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 38px;
+  position: relative;
+  right: 10px;
+
+  /* margin-right: 13px !important; */
+}
+
+.frequency-texts {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  /* line-height: 22px;
+  letter-spacing: 0.03em; */
+  color: #666666;
+  margin-top: 38px;
+  margin-left: 20px;
+}
+
+.info {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.totalText {
+  margin-left: 50px;
+  margin-top: 23px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  width: 100%;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}

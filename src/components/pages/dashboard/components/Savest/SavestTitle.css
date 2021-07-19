@@ -1,0 +1,68 @@
+.savest {
+  width: 100%;
+}
+
+.savestPage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.7rem;
+}
+.SavestHeader > h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}
+
+.SavestHeader > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+
+/* .buttonSection {
+  display: flex;
+  justify-content: space-between;
+} */
+.savestbtn-inactive {
+  width: 158px;
+  height: 52px;
+  color: #dadada;
+  font-size: 1.4rem;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid #dadada;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 4px 4px 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonSection {
+  display: flex;
+}
+
+.savestbtn-inactive > p {
+  margin-top: 10px;
+  margin-left: 11px;
+}
+
+.savestbtn-active {
+  background: #0768f6;
+  color: #fff;
+}
+
+.savestwithdraw-active {
+  border: 1px solid #0768f6;
+  color: #0768f6;
+}

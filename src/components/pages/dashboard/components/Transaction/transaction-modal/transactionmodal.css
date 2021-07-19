@@ -1,0 +1,170 @@
+.current-page > {
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+/* all transaction */
+.alltransac-modal {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.alltransac-modal > h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: left;
+  letter-spacing: 0.03em;
+
+  /* Secondary color */
+
+  color: #fd740e;
+}
+
+.alltransac-modal > p {
+  margin-bottom: 36px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  /* body text color */
+
+  color: #666666;
+}
+
+.date-ses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: left;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+
+.date > span {
+  color: black;
+}
+
+.time {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: right;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-bottom: 33px;
+}
+
+.time > span {
+  color: black;
+}
+
+.amount-ses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount-summary {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: left;
+  letter-spacing: 0.03em;
+
+  color: #666666;
+  margin-bottom: 32px;
+}
+
+.amount-summary > span {
+  color: black;
+}
+
+.pending,
+.processed {
+  margin-bottom: 33px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: left;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+
+.pending > span {
+  color: #ea8e03;
+}
+.processed > span {
+  color: #52ad70;
+}
+
+.reference {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-bottom: 33px;
+}
+.payment-met {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  /* body text color */
+
+  color: #666666;
+  margin-bottom: 33px;
+}
+.receipt-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-receipt {
+  margin-top: 70px;
+  width: 255px;
+  height: 52px;
+  font-size: 16px;
+  background: #e5eefb;
+  color: cornflowerblue;
+  border: none;
+}

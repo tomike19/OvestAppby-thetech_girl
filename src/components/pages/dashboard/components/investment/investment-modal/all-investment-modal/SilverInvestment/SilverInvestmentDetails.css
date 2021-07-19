@@ -1,0 +1,677 @@
+/* roi-modal */
+.silverinvestment__roi-info-bg {
+  /* position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0, 48);
+  /* visibility: hidden;
+  opacity: 0;
+  pointer-events: none; 
+
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.3s;
+  z-index: 999; */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  transition: all 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.show-roi-info {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.silverinvestment__roi-info-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  height: 370px;
+  background: #fff;
+}
+
+.profit-image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+
+.profit-roi-modal {
+  width: 683px;
+  height: 370px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.profit-roi-header {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+  margin-top: 8rem;
+}
+.profit-roi-textbody {
+  width: 80%;
+  margin: auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #666666;
+  margin-top: 3rem;
+}
+
+/* success modal */
+.profit-roi-textbody span {
+  color: #fd740e;
+}
+.success-img-icon {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.go-to-dashboard {
+  text-align: center;
+  margin-top: 5rem;
+}
+.go-to-dashboard-btn {
+  width: 205px;
+  height: 52px;
+  background: #0768f6;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+/* dryport/railway modal*/
+.dryport-modal {
+  /* width: 525px;
+  height: 444px; */
+}
+.dryport-body {
+  width: 70%;
+  margin: auto;
+  padding-top: 3rem;
+}
+.dryport-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.dryport-header h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.railway-body {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.railway-details {
+  width: 180px;
+  height: 64px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.7rem 1rem 1rem 2.7rem;
+}
+.mini-header {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+}
+.duration-plan {
+  color: #fd740e;
+}
+.dryport-btn {
+  text-align: center;
+}
+
+/* claim property modal */
+.railway-icon-img {
+  text-align: center;
+  margin-top: 6rem;
+}
+.ovest-support-main h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #0768f6;
+  margin-top: 3.5rem;
+}
+.ovest-support-main p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin: 2rem auto auto auto;
+  width: 50%;
+}
+.ovest-support-main span {
+  color: #fd740e;
+}
+
+/* silvest investment */
+
+.investpages {
+  width: 438px;
+  height: 100vh;
+  top: 0px;
+  background: #fff;
+  float: right;
+}
+.silvestinvestment {
+  width: 438px;
+  height: 90vh;
+  top: 0px;
+  background: #fff;
+}
+
+.silvestinvestment-body {
+  width: 90%;
+  margin: auto;
+}
+.silvestinvestment-h5 {
+  margin-top: 30px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.3rem;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.silvestheader-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.silvestinvestment-p {
+  font-family: Inter;
+  font-size: 1.6rem;
+  line-height: 19px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+.silvestinvestment-textbody {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 26px;
+  color: black;
+  margin-top: 2rem;
+}
+.silvest-flexbody {
+  display: flex;
+}
+.silvest-flexbody2 {
+  display: flex;
+  margin-top: 2rem;
+}
+.minimum-pricebody {
+  width: 178px;
+  height: 75px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.minimum-price {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.price {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fd740e;
+  margin-left: 2rem;
+}
+.durationbody {
+  margin-left: 3rem;
+  width: 178px;
+  height: 75px;
+  left: 1028px;
+  top: 314px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.duration {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.month {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fd740e;
+  margin-left: 2rem;
+}
+.note-main {
+  background: #f4f8fd;
+  border: 1px solid #64a0f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 5rem;
+}
+.note {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #999999;
+}
+.invest {
+  width: 396px;
+  height: 52px;
+  background: #0768f6;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+/* START INVESTMENT */
+
+.startinvestment {
+  width: 438px;
+  height: 100vh;
+  top: 0px;
+  background: #fff;
+  float: right;
+}
+.startinvestment-main {
+  width: 90%;
+  margin: auto;
+}
+
+.startinvestment-body {
+  height: 90vh;
+  width: 90%;
+  margin: auto;
+}
+.startinvestment-h5 {
+  margin-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.3rem;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.startinvestment-textbody {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+  margin-top: 1rem;
+}
+.amountinvest {
+  margin-top: 4rem;
+}
+.amount-p {
+  margin-top: 2rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.start-date {
+  margin-top: 3.5rem;
+}
+.startinvest-input {
+  width: 395px;
+  height: 48px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  padding-left: 2rem;
+}
+.minimum-amount {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 1rem;
+}
+.enquiry-label {
+  font-size: 16px;
+  line-height: 20px;
+  color: #666666;
+  width: 363px;
+  height: 40px;
+  margin-top: 3.6rem;
+  margin-left: 1rem;
+}
+.enquiry-label2 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #666666;
+  width: 363px;
+  height: 40px;
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+}
+.interest-flex {
+  width: 396px;
+  height: 44px;
+  background: #f4f8fd;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 15px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #0768f6;
+}
+.radiobutton {
+  display: flex;
+}
+.radio-input {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.radio-input2 {
+  margin-top: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+/* CONFIRM INVESTMENT */
+
+.confirminvestment {
+  height: 90vh;
+}
+.confirminvestment-main {
+  margin-top: 2rem;
+}
+.confirminvestment-h5 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-bottom: 1rem;
+}
+.confirminvestment-textbody {
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+}
+.investamount {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+}
+.silverplan {
+  background: #fafafa;
+  box-shadow: 0px 4px 8px rgba(245, 245, 245, 0.7);
+  border-radius: 4px;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+.silverplan-flex {
+  margin-top: 2rem;
+}
+.silverplan-header {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.flex-main {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+.pricetag {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}
+.pricetag-mini {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}
+.flex-mini {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.paymentreturn-main {
+  background: #f4f8fd;
+  border: 1px solid #64a0f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 4rem;
+}
+.paymentreturn {
+  width: 97%;
+  margin: auto;
+  padding: 2rem;
+}
+.month-duration {
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #999999;
+}
+.month-percentage {
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+}
+.termsandcondition {
+  font-size: 12px;
+  line-height: 15px;
+  color: #666666;
+  position: relative;
+  bottom: 0.2rem;
+  padding-left: 1rem;
+}
+.checkbox-input {
+  margin-top: 3rem;
+}
+.payment-interest {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.checkbox-main span {
+  color: #fd740e;
+}
+
+/* INVEST NOW */
+
+.fundwith-header {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+.hr {
+  width: 100%;
+}
+.ovestwallet-main {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  font-weight: 600;
+}
+.investamount-balance {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #dd0707;
+}
+.investamount-mini {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}
+.funds-p {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #dd0707;
+  text-align: center;
+}
+.funds-p span {
+  color: #0768f6;
+}
+.funds-deduction {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #999999;
+  width: 76%;
+  margin: auto;
+}
+
+/* PAYMENT METHOD */
+.paymentmethod-header {
+  margin-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.76rem;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.paymentmethod-flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 2rem 2rem 2rem;
+}
+.payment-cards {
+  width: 370px;
+  height: 116px;
+  background: #e7eef9;
+  margin-top: 5rem;
+}
+.wallet-title {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+
+/* ABOUT PROFIT */
+.card-display {
+  position: relative;
+  width: 453px;
+  height: 309px;
+  right: 110%;
+  top: 20%;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.cardsuccesswrapper {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+.closemodaliconsucess-btn {
+  border: none;
+  background: none;
+  align-self: flex-end;
+}
+.cardsuccesswrapper > img {
+  height: 45px;
+}

@@ -1,0 +1,22 @@
+.navba-logo1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 45px;
+  /* margin-bottom: 60px; */
+  text-decoration: none;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.navba-logo1 > img {
+  width: 4rem;
+}
+.navba-logo1 > p {
+  color: #0768f6;
+  margin-top: 0.9rem;
+  margin-left: 0.4rem;
+  font-weight: bold;
+  font-size: 3.3rem;
+}

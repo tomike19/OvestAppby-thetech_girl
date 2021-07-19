@@ -1,0 +1,65 @@
+.recent-transaction {
+  background: #ffffff;
+  margin-top: 16px;
+  max-height: 415px;
+}
+
+.recent-transaction > h4 {
+  text-align: left;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  /* Body header color */
+
+  color: #121212;
+  padding: 20px;
+}
+
+.no-transact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-transact > img {
+  margin-top: 2.6rem;
+  width: 142.56px;
+  height: 119px;
+}
+
+.no-transact > h6 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-top: 2.9rem;
+}
+
+.no-transact > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  word-wrap: break-word;
+
+  color: #666666;
+  width: 30.4rem;
+  height: 4.4rem;
+  margin-top: 1rem;
+}

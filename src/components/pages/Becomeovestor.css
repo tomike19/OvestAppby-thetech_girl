@@ -1,0 +1,154 @@
+.ovestor {
+  padding: 10px 40px;
+}
+
+.ovestor-tit {
+  font-family: Inter;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #121212;
+}
+
+.ovestor-tit > p {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  font-size: 40px;
+}
+.ovestor-tit p > span {
+  color: #0768f6;
+  border: 2px solid #fe8c01;
+  border-radius: 50%;
+}
+.one {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  margin-bottom: 88px;
+  margin-top: 1rem;
+}
+
+.one > img {
+  width: 100px;
+  height: 100px;
+  margin-left: -0.7rem;
+}
+.one-details {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 51px;
+}
+.one-title {
+  margin-bottom: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #121212;
+}
+.one-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* body text color */
+
+  color: #666666;
+}
+.group10 {
+  width: 100%;
+  /* margin-top: 100px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+@media (max-width: 420px) {
+  .ovestor {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  .steps {
+    margin-left: -1rem !important;
+  }
+  .ovestor-tit {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .ovestor-tit > p {
+    line-height: 35px;
+    font-weight: 700;
+  }
+
+  .one {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .one > img {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 30px;
+    /* margin-right: 180px; */
+    padding: 0;
+    align-content: flex-start;
+  }
+  .one-details {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ovestor-tit > p {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .ovestor-tit > p {
+    font-size: 19px;
+    /* tex */
+  }
+  .one {
+    margin-top: 30px;
+  }
+  .one > img {
+    width: 10%;
+  }
+
+  .one-title {
+    margin-right: 30px;
+  }
+  /* .one-title {
+    margin-left: 0px;
+  } */
+}

@@ -1,0 +1,62 @@
+
+
+.payDetailsD {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.payDetailsD-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payDetailsD-left > div {
+  flex-direction: column;
+  align-content: center;
+  margin-left: 16px;
+}
+
+.referral-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-top: 5px;
+}
+
+.referral-amount {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  margin-right: 26px;
+  font-weight: 500;
+
+}
+
+.date {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-right: 40px;
+}
+
+.payimage{
+  margin-left: 16px;
+  margin-top: -10px;
+}
+
+hr{
+  width: 650px;
+ position: relative;
+ top: -10px;
+ color: #d5d1d1 !important;
+}

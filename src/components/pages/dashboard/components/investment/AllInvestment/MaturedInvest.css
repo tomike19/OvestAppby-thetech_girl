@@ -1,0 +1,78 @@
+.matured {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #038830;
+    margin-left: 2.3rem;
+}
+.matured-main {
+    margin-left: 9rem;
+    margin-top: 3rem;
+}
+.matured-naira {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #0768F6;
+    margin-top: 8rem;
+    margin-left: 1.1rem;
+}
+.matured-balance {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #666666;
+    margin-left: 2.1rem;
+}
+.maturedinvestmentmodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(153, 153, 153, 0.48);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    z-index: 999;
+}
+.maturedinvestmentmodal:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.investmodal-head {
+    background-color: #fff;
+    margin-left: auto;
+    width: 438px;
+    height: 100vh;
+}
+
+.maturedspecialindex {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(153, 153, 153, 0.48);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    z-index: 999;
+}
+.maturedspecialindex:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}

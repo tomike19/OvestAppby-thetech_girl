@@ -1,0 +1,112 @@
+.enquiry-session {
+  margin-left: 27px;
+}
+.savest-payment > h6 {
+  margin-top: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+}
+
+.savest-payment > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 26px;
+  color: #666666;
+  margin-right: 42px;
+}
+.label-input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-top: 15px;
+}
+.form-input {
+  width: 390px;
+  height: 48px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+::placeholder {
+  padding-left: 22px;
+  font-size: 1.4rem;
+  padding-top: 15px;
+  padding-bottom: 16px;
+}
+
+.Enquiry-session p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-top: 30px;
+}
+.enquiry-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.payment-section > p {
+  margin-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.selection {
+  width: 390px;
+  height: 48px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 17px;
+  color: #666666;
+  padding-left: 22px;
+  margin-top: 10px;
+}
+
+.payment-button {
+  height: 52px;
+  width: 390px;
+  background: #0768f6;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: 30px;
+  border: none;
+  color: white;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+}

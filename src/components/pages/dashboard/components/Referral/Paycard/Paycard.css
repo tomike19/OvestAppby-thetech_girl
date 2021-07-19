@@ -1,0 +1,25 @@
+.pay-session{
+   width: 695px;
+  height: 70vh;
+  background: #ffffff;
+  border: 4px;
+  margin-top: 24px;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.payDetails{
+  margin-top: 50px;
+}
+
+.paytext{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 1.8rem;
+line-height: 22px;
+letter-spacing: 0.03em;
+color: #121212;
+position: relative;
+top: 20px;
+margin-left: 16px;
+}

@@ -1,0 +1,57 @@
+.referral-code {
+  width: 320px;
+  height: 385px;
+  background: #f4f8fd;
+  border: 1px dashed #64a0f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 24px;
+  margin-left: 32px;
+}
+
+.referral-page > img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+.referralParagraph {
+  text-align: center;
+  margin-top: 23px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}
+
+.referralText {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 20px;
+  text-align: center;
+  color: #666666;
+  width: 90%;
+  margin: auto;
+  margin-top: 23px;
+}
+.referral-button {
+  display: block;
+  margin: auto;
+  width: 255px;
+  height: 52px;
+  background: #0768f6;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}

@@ -1,0 +1,49 @@
+.moniya-body {
+  height: 90vh;
+}
+.moniya-main {
+  width: 90%;
+  margin: auto;
+}
+.moniya-h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+.headertitle-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.connect-dots {
+}
+.claim-property {
+  width: 396px;
+  height: 52px;
+  background: #dadada;
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 4rem;
+}
+.moniya-note {
+  width: 396px;
+  height: 87px;
+  background: #f4f8fd;
+  border: 1px solid #64a0f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.moniyamain-note {
+  padding: 2rem;
+  font-size: 12px;
+}

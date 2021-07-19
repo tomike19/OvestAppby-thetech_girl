@@ -1,0 +1,73 @@
+.referral-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.referral-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.referralmodal-head {
+  background-color: #fff;
+  margin-left: auto;
+  width: 438px;
+  height: 100vh;
+}
+
+.referral-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.closemodal {
+  margin: 20px;
+}
+.referral-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+}
+
+.referral-paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+
+.withdraw-button {
+  width: 200px;
+  height: 52px;
+  background: #0768f6;
+  border: none;
+  color: white;
+  font-weight: normal;
+  font-size: 1.4rem;
+  /* margin-right: 21px; */
+  border-radius: 4px 4px 4px 0px;
+}
+
+.pay-details {
+  width: 675px;
+  height: 400px;
+  background-color: #ffffff;
+  margin-top: 35px;
+}

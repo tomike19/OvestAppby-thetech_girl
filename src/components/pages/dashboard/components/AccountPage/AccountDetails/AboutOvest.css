@@ -1,0 +1,74 @@
+.about-section {
+  width: 90%;
+  margin: auto;
+  height: 90vh;
+}
+
+.about-header {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+  margin-top: 18px;
+}
+
+.About-logo {
+  background: #d4e2f7;
+  border-radius: 4px;
+  width: 383px;
+  height: 109px;
+  margin-top: 23px;
+  margin-bottom: 32px;
+}
+
+.about-logo img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 36px;
+  padding-bottom: 35px;
+}
+
+.about-text h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 30px;
+  color: #121212;
+}
+.about-text p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  margin-top: 15px;
+}
+
+.about-social p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 33px;
+}
+
+.about-icon {
+  cursor: pointer;
+  margin-top: 28px;
+  padding-bottom: 50px;
+}
+.social-icon {
+  margin-left: 35px;
+  /* margin-bottom: 40px; */
+}
+
+

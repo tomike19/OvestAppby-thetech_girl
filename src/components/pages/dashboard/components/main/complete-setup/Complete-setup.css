@@ -1,0 +1,31 @@
+.popInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #dd0707;
+  background: #faf0f0;
+  box-sizing: border-box;
+  height: 60px;
+  border-radius: 4px;
+  width: 92%;
+}
+.pop-text-red {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #dd0707;
+}
+
+.pop-text-norm {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #666666;
+}

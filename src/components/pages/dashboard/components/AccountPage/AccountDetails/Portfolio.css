@@ -1,0 +1,163 @@
+.portfolio-section {
+  width: 90%;
+  margin: auto;
+  height: 90vh;
+}
+
+.portfolio-header {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+  margin-top: 18px;
+}
+.portfolioColors {
+  display: flex;
+  margin-top: 25px;
+}
+
+.portfolio-blue {
+  width: 134px;
+  height: 83px;
+  background: #cde1fe;
+}
+.portfolio-blue p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 55px;
+  padding-bottom: 13px;
+  color: #0768f6;
+}
+.portfolio-darkBlue {
+  width: 134px;
+  height: 83px;
+  background: #9cc3fc;
+}
+.portfolio-darkBlue p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 55px;
+  padding-bottom: 13px;
+  color: #0768f6;
+}
+
+.portfolioBlue {
+  width: 134px;
+  height: 83px;
+  background: #0768f6;
+}
+
+.portfolioBlue p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 55px;
+  padding-bottom: 13px;
+  color: #ffffff;
+}
+
+.wallets {
+  width: 17px;
+  height: 17px;
+  background: #cde1fe;
+}
+
+.savest-color {
+  width: 17px;
+  height: 17px;
+  background: #9cc3fc;
+}
+
+.invest-color {
+  background: #0768f6;
+  width: 17px;
+  height: 17px;
+}
+
+.portfolio-savest {
+  display: flex;
+  margin-top: 36px;
+}
+
+.portfolio-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-text p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+
+.portfolio-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-header {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 41px;
+}
+
+.summaryHeader {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  padding-top: 15px;
+}
+
+.summary-details{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #666666;
+padding-top: 5px;
+
+}
+
+.summary-detailss{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #666666;
+padding-top: 5px;
+padding-bottom: 20px;
+}

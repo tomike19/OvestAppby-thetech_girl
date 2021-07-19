@@ -1,0 +1,134 @@
+.transactions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transactionDetails {
+  width: 695px;
+  height: 400px;
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+
+.trans-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 1.8rem;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+  margin-top: 20px;
+}
+.transText {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin-top: 12px;
+}
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.detailsText {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-top: 21px;
+  margin-left: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  text-align: left;
+}
+
+.tuitionandrent-main {
+  margin-top: 35px;
+}
+.tuition-main {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 148px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 3rem;
+}
+.tuition-fees {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}
+.dollar-amount {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+.fixed-plan {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #038830;
+}
+.rate-main {
+  padding-top: 2rem;
+}
+.interest-amount {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #666666;
+  padding-top: 3rem;
+}
+.percentage-interest {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #0768f6;
+}
+.perannum {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+.rent-main {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 148px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 1rem;
+}

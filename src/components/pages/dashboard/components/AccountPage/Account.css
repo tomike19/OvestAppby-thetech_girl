@@ -1,0 +1,226 @@
+/*Account Modal*/
+.account-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.account-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.accountmodal-head {
+  background-color: #fff;
+  margin-left: auto;
+  width: 438px;
+  height: 100vh;
+}
+
+/*About-modal*/
+.about-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.about-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/*Portfolio-modal*/
+.portfolio-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.portfolio-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Legal-modal*/
+.legal-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.legal-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* VERIFICATION-MODAL*/
+
+.verification-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.verification-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* SETTINGS-MODAL*/
+.settings-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.48);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.settings-modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+}
+.Account {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 592px;
+  height: 65px;
+}
+
+.Account p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #666666;
+  margin: 25px 0px 21px 25px;
+}
+.Account-section {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  background: #ffffff;
+  width: 592px;
+  height: 65px;
+  margin-top: 16px;
+}
+.account-paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  margin-top: -7px;
+  color: #666666;
+  margin-left: 24px;
+}
+.arrow {
+  margin-top: 28px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.Account-text {
+  margin-left: 24px;
+  margin-top: 9px;
+}
+
+.imageAccount {
+  margin-left: 29px;
+  margin-top: 22px;
+}
+
+.account-page h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #fd740e;
+  margin-top: 31px;
+}
+
+.account-page p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-top: 13px;
+}
+
+.refer-page {
+  margin-top: 130px;
+}
+
+.Account-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #666666;
+}

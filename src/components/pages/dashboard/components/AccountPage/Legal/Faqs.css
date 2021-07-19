@@ -1,0 +1,35 @@
+.faqs-section{
+  margin-left: 26px;
+  margin-right: 42px;
+}
+.faqs-text{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 1.8rem;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #FD740E;
+padding-top: 27px;
+
+}
+
+.faq{
+  margin-top: 33px;
+  cursor: pointer;
+}
+.faqs-details{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.faqs-details p{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.03em;
+color: #121212;
+}

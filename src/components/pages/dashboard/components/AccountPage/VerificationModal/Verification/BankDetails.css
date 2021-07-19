@@ -1,0 +1,49 @@
+.bankDetails-header h1{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 1.8rem;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #FD740E;
+margin-top: 27px;
+}
+
+
+.bank-section{
+  width: 90%;
+  margin: auto;
+}
+
+.bankInput{
+  margin-top: 40px;
+}
+.bankDetails-header p{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #666666;
+margin-top: 9px;
+}
+
+.bank-input{
+width: 395px;
+height: 48px;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 4px;
+margin-right: 16px;
+}
+
+::placeholder{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.4rem;
+line-height: 17px;
+letter-spacing: 0.03em;
+color: #666666;
+}
