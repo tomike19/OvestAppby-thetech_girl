@@ -1,4 +1,4 @@
-@media(max-width:768px){
+@media(max-width:992px){
   .invest-rate-image {
     display: none;
   }
@@ -27,7 +27,6 @@
     color: #121212;
     width: 80%;
   }
-
   .vl {
     border-left: 2px solid rgba(159, 191, 237, 0.68);
     height: 60px;
@@ -52,5 +51,80 @@
   .invest-rate-body {
     padding-left: 20px;
     margin-top: 21px;
+  }
+}
+
+
+@media(min-width:992px){
+  .investment-rate-section {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .vl {
+    border-left: 2px solid rgba(159, 191, 237, 0.68);
+    height: 134px;
+    margin-left: 30px;
+  }
+
+  .invest-rate {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+
+  .invest-rate-image {
+    margin-top: 200px;
+    width: 35vw;
+  }
+
+  .invest-rate-body {
+    padding-left: 200px;
+  }
+  .invest-details {
+    padding-top: 97px;
+  }
+
+  .invest-text {
+    width: 196px;
+    height: 40px;
+    background: rgba(239, 210, 171, 0.39);
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: -0.02em;
+    color: #fd740e;
+  }
+
+  .invest-texts {
+    font-size: 3rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    color: #121212;
+    width: 90%;
+  }
+
+  .invest-section-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #121212;
+    width: 80%;
+  }
+}
+
+@media(min-width:768px){
+  .hello-text{
+    color: green;
+    font-weight: 700;
   }
 }
