@@ -5,19 +5,17 @@ import invest2 from "../Assets/invest2.svg";
 import invest3 from "../Assets/invest3.svg";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import balance from "../Assets/balance.svg"
+import balance from "../Assets/balance.svg";
 import "./InvestmentRate.css";
-
 
 const useStyles = makeStyles((theme) => ({
   button: {
     margin: theme.spacing(1),
   },
 }));
-const InvestmentRate = () =>
-{
+const InvestmentRate = () => {
   const classes = useStyles();
-  
+
   return (
     <div>
       <div className="invest-rate">
@@ -63,40 +61,88 @@ const InvestmentRate = () =>
           </div>
         </div>
       </div>
-      <div></div>
-
-      <div>
+      <div className="savest-balance">
         <div>
-          <p>Savest</p>
-          <h1>Put money aside and save with purpose</h1>
-          <p>
+          <p className="savest-balance-text">Savest</p>
+          <h1 className="savest-balance-header">Put money aside and save with purpose</h1>
+          <p className="savest-paragraph">
             Saving towards your goal shouldn’t be hard. Savest was created to
             help you save for purpose intentionally for the things you fing
             important. Whatever your saving habit is, OVest has a plan that
             caters for you. Start with your preferred amount and earn 10%
             interest monthly. EVERYONE IS WELCOME!
           </p>
-           <Button
-                  // onClick={openModal}
-                  variant="contained"
-                  color="#"
-                  className={classes.button}
-                  style={{
-                    backgroundColor: "#0768F6",
-                    color: "white",
-                    width: "178px",
-                    height: "52px",
-                    textTransform: "capitalize",
-                    fontSize: "1.6rem",
-                    fontWeight: "normal",
-                    lineHeight: "30px",
-                    borderRadius: "4px 4px 4px 0px",
-                    marginTop: "20px",
-                    marginLeft: "-1px",
-                  }}
-                >
-                  Get Started Now
-                </Button>
+          <Button
+            // onClick={openModal}
+            variant="contained"
+            color="#"
+            className={classes.button}
+            style={{
+              backgroundColor: "#0768F6",
+              color: "white",
+              width: "178px",
+              height: "52px",
+              textTransform: "capitalize",
+              fontSize: "1.6rem",
+              fontWeight: "normal",
+              lineHeight: "30px",
+              borderRadius: "4px 4px 4px 0px",
+              marginTop: "20px",
+              marginLeft: "-1px",
+            }}
+          >
+            Get Started Now
+          </Button>
+        </div>
+        <div className="savest-balance-card">
+          <img src={balance} alt="" />
+          <p>Savest balance</p>
+          <p>$40,000</p>
+          <p>9.0% portfolio change today</p>
+          <div>
+            <Button
+              // onClick={openModal}
+              variant="contained"
+              color="#"
+              className={classes.button}
+              style={{
+                backgroundColor: "#0768F6",
+                color: "white",
+                width: "178px",
+                height: "52px",
+                textTransform: "capitalize",
+                fontSize: "1.6rem",
+                fontWeight: "normal",
+                lineHeight: "30px",
+                borderRadius: "4px 4px 4px 0px",
+                marginTop: "20px",
+                marginLeft: "-1px",
+              }}
+            >
+              Get Started Now
+            </Button>
+            <Button
+              // onClick={openModal}
+              variant="contained"
+              color="#"
+              className={classes.button}
+              style={{
+                backgroundColor: "#0768F6",
+                color: "white",
+                width: "178px",
+                height: "52px",
+                textTransform: "capitalize",
+                fontSize: "1.6rem",
+                fontWeight: "normal",
+                lineHeight: "30px",
+                borderRadius: "4px 4px 4px 0px",
+                marginTop: "20px",
+                marginLeft: "-1px",
+              }}
+            >
+              Get Started Now
+            </Button>
+          </div>
         </div>
       </div>
     </div>
