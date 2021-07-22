@@ -324,4 +324,9 @@ line-height: 17px;
 color: #CDE1FE;
 margin-top: 21px;
   }
+
+  .invest-rate-flex{
+    display: flex;
+    justify-content: space-between;
+  }
 }
