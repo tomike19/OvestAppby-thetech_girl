@@ -310,23 +310,37 @@
     margin-top: 13px;
   }
 
-
-  .input-invest ::placeholder{
+  .input-invest ::placeholder {
     color: #ffffff;
   }
 
-  .period-text{
+  .period-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 17px;
+    color: #cde1fe;
+    margin-top: 21px;
+  }
+
+  .invest-rate-flex {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 15px;
+    color: #cde1fe;
+  }
+
+  .invest-rate-text{
     font-family: Inter;
 font-style: normal;
 font-weight: 500;
-font-size: 1.4rem;
-line-height: 17px;
-color: #CDE1FE;
-margin-top: 21px;
-  }
-
-  .invest-rate-flex{
-    display: flex;
-    justify-content: space-between;
+font-size: 1.2rem;
+line-height: 15px;
+color: #FFFFFF;
   }
 }

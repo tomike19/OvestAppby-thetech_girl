@@ -80,7 +80,7 @@ const OvestInvestPlan = () => {
                 <p>N102,2345.34</p>
               </div>
             </div>
-            <p>
+            <p className="invest-rate-text">
               *These results are for indicative purposes only. This calculator
               provides an average interest rate for each plan
             </p>
