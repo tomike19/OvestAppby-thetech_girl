@@ -35,7 +35,11 @@ const DashBoardRoute = ({ sidebarOpen, openSidebar, closeSidebar }) => {
         <Route path={`${match.path}/referral`} exact component={Referral} />
 
         <Route path={`${match.path}/account`} exact component={Account} />
-        <Route path={`${match.path}/bankCardsAccount`} exact component={BankCardsAccount} />
+        <Route
+          path={`${match.path}/account/bankCardsAccount`}
+          exact
+          component={BankCardsAccount}
+        />
       </Switch>
 
       {/* <Sidebar {...{sidebarOpen, closeSidebar, match}} /> */}

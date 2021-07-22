@@ -1,0 +1,270 @@
+@media (max-width: 768px) {
+  .ovest-investment-plan {
+    background: #f0f6ff;
+  }
+
+  .ovest-invest-header h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 35px;
+    margin-left: 25px;
+  }
+
+  .ovest-invest-header p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: #666666;
+    width: 90%;
+    margin-left: 25px;
+  }
+
+  .invest-rate-card {
+    width: 313px;
+    height: 299px;
+    background: #ffffff;
+    border: 1px solid #0768f6;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    width: 90%;
+    margin: 24px auto 0px auto;
+    border: none;
+  }
+
+  .invest-rate-card img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 43px;
+    width: 70px;
+  }
+
+  .invest-rate-card h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #038830;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  .invest-rate-card p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 15px;
+    text-align: center;
+    color: #666666;
+  }
+  .interest-paragraph {
+    padding-top: 31px;
+  }
+}
+@media (min-width: 768px) {
+  .investCard-rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .invest-rate-card {
+    width: 32.5%;
+    height: 368px;
+    background: #ffffff;
+    border: 1px solid #0768f6;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    border: none;
+    margin-top: 109px;
+    margin-bottom: 50px;
+  }
+
+  .ovest-invest-header h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 182px;
+    text-align: center;
+  }
+  .ovest-invest-header p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 32px;
+    color: #666666;
+    text-align: center;
+    padding-top: 24px;
+  }
+
+  .invest-rate-card img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 43px;
+    width: 70px;
+  }
+
+  .invest-rate-card h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #038830;
+    text-align: center;
+    padding-top: 28px;
+  }
+
+  .invest-rate-card p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 15px;
+    text-align: center;
+    color: #666666;
+  }
+  .interest-paragraph {
+    padding-top: 31px;
+  }
+
+  .interest-text {
+    margin-top: 18px;
+  }
+}
+@media (min-width: 1080px) {
+  .investCard-rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .invest-rate-card {
+    width: 32.5%;
+    height: 368px;
+    background: #ffffff;
+    border: 1px solid #0768f6;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    border: none;
+    margin-top: 109px;
+    margin-bottom: 50px;
+  }
+
+  .ovest-invest-header h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 182px;
+    text-align: center;
+  }
+  .ovest-invest-header p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 32px;
+    color: #666666;
+    text-align: center;
+    padding-top: 24px;
+  }
+
+  .invest-rate-card img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 43px;
+    width: 70px;
+  }
+
+  .invest-rate-card h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #038830;
+    text-align: center;
+    padding-top: 28px;
+  }
+
+  .invest-rate-card p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 15px;
+    text-align: center;
+    color: #666666;
+  }
+  .interest-paragraph {
+    padding-top: 31px;
+  }
+  .interest-text {
+    padding-top: 18px;
+  }
+}
+
+/*    Goldvest Plan Rate */
+@media (min-width: 768px) {
+  .Goldvest-rate-section {
+    width: 1036px;
+    height: 353px;
+    background: #ebf2ff;
+    border-radius: 4px;
+    width: 80%;
+    margin:155px auto 0px auto;
+  }
+
+  .Golvest-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Goldvest-background{
+    width: 378px;
+height: 301px;
+background: #0768F6;
+border-radius: 4px;
+margin-top: 26px;
+margin-bottom: 26px;
+margin-right: 77px;
+  }
+  .Goldvest-text-details h1{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 3.6rem;
+line-height: 44px;
+text-align: center;
+color: #121212;
+  }
+}

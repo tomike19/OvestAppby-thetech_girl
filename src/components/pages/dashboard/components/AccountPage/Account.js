@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import { connect } from "react-redux";
 import { showModal } from "../../../../../redux/actions/modal.action";
 import DashboardLayout from "../../dashboardDefaultLayout/DashboardLayout";
@@ -51,7 +51,7 @@ const Account = ({ toggleModalAppearance }) => {
             <Verfication />
             <FundsTransfer />
             <AccountPortfolio />
-            <Link to="/dashboard/bankCardsAccount">
+            <Link to="/dashboard/account/bankCardsAccount">
               <BankCard />
             </Link>
             <Support />
@@ -83,11 +83,10 @@ const Account = ({ toggleModalAppearance }) => {
 
         {/* </div> */}
       </main>
-      
-    </DashboardLayout>  
+    </DashboardLayout>
   );
 };
- 
+
 const mapDispatchToProps = (dispatch) => ({
   toggleModalAppearance: () => dispatch(showModal()),
   // toggleWithdrawalModalAppearance: () => dispatch(showWithdrawalModal()),

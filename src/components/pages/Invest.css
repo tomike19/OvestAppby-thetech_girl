@@ -136,7 +136,7 @@
   }
 
   .invest-image {
-    width: 600px;
+    width: 500px;
     transform: translateY(0px);
     animation: float 4s ease-in-out infinite;
   }

@@ -3,6 +3,7 @@ import buildImage from "../Assets/Build.svg";
 import invest1 from "../Assets/invest1.svg";
 import invest2 from "../Assets/invest2.svg";
 import invest3 from "../Assets/invest3.svg";
+import OvestInvestPlan from "./OvestInvestPlan";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import balance from "../Assets/balance.svg";
@@ -62,9 +63,11 @@ const InvestmentRate = () => {
         </div>
       </div>
       <div className="savest-balance">
-        <div>
+        <div className="savest-details-balance">
           <p className="savest-balance-text">Savest</p>
-          <h1 className="savest-balance-header">Put money aside and save with purpose</h1>
+          <h1 className="savest-balance-header">
+            Put money aside and save with purpose
+          </h1>
           <p className="savest-paragraph">
             Saving towards your goal shouldn’t be hard. Savest was created to
             help you save for purpose intentionally for the things you fing
@@ -87,7 +90,7 @@ const InvestmentRate = () => {
               fontWeight: "normal",
               lineHeight: "30px",
               borderRadius: "4px 4px 4px 0px",
-              marginTop: "20px",
+              marginTop: "24px",
               marginLeft: "-1px",
             }}
           >
@@ -96,55 +99,27 @@ const InvestmentRate = () => {
         </div>
         <div className="savest-balance-card">
           <img src={balance} alt="" />
-          <p>Savest balance</p>
-          <p>$40,000</p>
-          <p>9.0% portfolio change today</p>
-          <div>
-            <Button
-              // onClick={openModal}
-              variant="contained"
-              color="#"
-              className={classes.button}
-              style={{
-                backgroundColor: "#0768F6",
-                color: "white",
-                width: "178px",
-                height: "52px",
-                textTransform: "capitalize",
-                fontSize: "1.6rem",
-                fontWeight: "normal",
-                lineHeight: "30px",
-                borderRadius: "4px 4px 4px 0px",
-                marginTop: "20px",
-                marginLeft: "-1px",
-              }}
-            >
-              Get Started Now
-            </Button>
-            <Button
-              // onClick={openModal}
-              variant="contained"
-              color="#"
-              className={classes.button}
-              style={{
-                backgroundColor: "#0768F6",
-                color: "white",
-                width: "178px",
-                height: "52px",
-                textTransform: "capitalize",
-                fontSize: "1.6rem",
-                fontWeight: "normal",
-                lineHeight: "30px",
-                borderRadius: "4px 4px 4px 0px",
-                marginTop: "20px",
-                marginLeft: "-1px",
-              }}
-            >
-              Get Started Now
-            </Button>
+          <p
+            className="mt-5"
+            style={{
+              fontSize: "1.8rem",
+            }}
+          >
+            Savest balance
+          </p>
+          <p className="savest-balance-paragraph">$40,000</p>
+          <p
+           className="portfolio-percent"
+          >
+            9.0% portfolio change today
+          </p>
+          <div className="invest-rate-button">
+            <button className="get-button">Get Started Now</button>
+            <button className="button-withdraw">Withdraw</button>
           </div>
         </div>
       </div>
+      <OvestInvestPlan/>
     </div>
   );
 };
