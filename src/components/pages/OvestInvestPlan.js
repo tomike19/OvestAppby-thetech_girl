@@ -59,12 +59,12 @@ const OvestInvestPlan = () => {
             </p>
           </div>
           <div className="Goldvest-background">
-            <div>
+            <div className="Goldvest-invest-details">
               <p>IF YOU INVEST</p>
               <p>GoldVest Plan</p>
             </div>
-            <input type="text" placeholder="N100,000" />
-            <p>FOR A PERIOD OF</p>
+            <input type="text" placeholder="N100,000"  className="input-invest"/>
+            <p className="period-text">FOR A PERIOD OF</p>
             <p></p>
             <div>
               <div>

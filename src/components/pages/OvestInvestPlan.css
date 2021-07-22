@@ -233,7 +233,8 @@
   }
 }
 
-/*    Goldvest Plan Rate */
+/*    GOLDVEST Plan Rate */
+
 @media (min-width: 768px) {
   .Goldvest-rate-section {
     width: 1036px;
@@ -241,7 +242,7 @@
     background: #ebf2ff;
     border-radius: 4px;
     width: 80%;
-    margin:155px auto 0px auto;
+    margin: 155px auto 0px auto;
   }
 
   .Golvest-flex {
@@ -249,22 +250,78 @@
     justify-content: space-between;
   }
 
-  .Goldvest-background{
+  .Goldvest-background {
     width: 378px;
-height: 301px;
-background: #0768F6;
-border-radius: 4px;
-margin-top: 26px;
-margin-bottom: 26px;
-margin-right: 77px;
+    height: 301px;
+    background: #0768f6;
+    border-radius: 4px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-right: 77px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .Goldvest-text-details h1{
-font-family: Inter;
+  .Goldvest-text-details h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 44px;
+    color: #121212;
+    padding-top: 155px;
+    margin-left: 77px;
+  }
+
+  .Goldvest-text-details p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 24px;
+    margin-left: 77px;
+    color: #666666;
+    width: 55%;
+    padding-top: 17px;
+  }
+
+  .Goldvest-invest-details {
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  }
+  .Goldvest-invest-details p {
+    color: #ffffff;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 17px;
+    padding-top: 28px;
+  }
+
+  .input-invest {
+    width: 338px;
+    height: 36px;
+    background: #063f92;
+    border-radius: 8px;
+    border: none;
+    margin-top: 13px;
+  }
+
+
+  .input-invest ::placeholder{
+    color: #ffffff;
+  }
+
+  .period-text{
+    font-family: Inter;
 font-style: normal;
 font-weight: 500;
-font-size: 3.6rem;
-line-height: 44px;
-text-align: center;
-color: #121212;
+font-size: 1.4rem;
+line-height: 17px;
+color: #CDE1FE;
+margin-top: 21px;
   }
 }
