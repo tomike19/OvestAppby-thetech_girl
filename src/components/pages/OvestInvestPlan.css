@@ -234,7 +234,11 @@
 }
 
 /*    GOLDVEST Plan Rate */
-
+@media (max-width: 768px) {
+  .Goldvest-rate-section{
+    display: none;
+  }
+}
 @media (min-width: 768px) {
   .Goldvest-rate-section {
     width: 1036px;
@@ -333,14 +337,16 @@
     font-size: 1.2rem;
     line-height: 15px;
     color: #cde1fe;
+    /* padding-top: 38px; */
   }
 
-  .invest-rate-text{
+  .invest-rate-text {
     font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 1.2rem;
-line-height: 15px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 15px;
+    color: #ffffff;
+    padding-top: 28px;
   }
 }

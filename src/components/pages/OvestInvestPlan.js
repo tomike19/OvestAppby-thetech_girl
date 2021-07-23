@@ -3,6 +3,9 @@ import silverrate from "../Assets/silverrate.svg";
 import Goldvestrate from "../Assets/Goldvestrate.svg";
 import specialrate from "../Assets/specialrate.svg";
 import "./OvestInvestPlan.css";
+import Testimony from "./Testimony";
+import TelegramCommunity from "./TelegramCommunity";
+import Footer from "./footer";
 
 const OvestInvestPlan = () => {
   return (
@@ -87,6 +90,25 @@ const OvestInvestPlan = () => {
           </div>
         </div>
       </div>
+      <div
+        style={{
+          marginTop: "155px",
+        }}
+      >
+        <Testimony />
+      </div>
+      <div
+        style={{
+          marginTop: "155px",
+        }}
+      >
+        <TelegramCommunity />
+      </div>
+      <Footer
+        style={{
+          marginTop: "200px",
+        }}
+      />
     </div>
   );
 };
