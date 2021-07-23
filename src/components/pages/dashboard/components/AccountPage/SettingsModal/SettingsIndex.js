@@ -53,7 +53,7 @@ const SettingsIndex = ({ section, setSection }) => {
     case 4:
       CurrentPage = (
         <>
-          <a
+          <button
             href="#settingsModal"
             className="backicon"
             onClick={() => {
@@ -62,7 +62,7 @@ const SettingsIndex = ({ section, setSection }) => {
           >
             <img src={backicon} alt="back icon" className="back-icon" />
             {/* <img src={info} alt="" /> */}
-          </a>
+          </button>
           <Security setSection={setSection} />
         </>
       );
