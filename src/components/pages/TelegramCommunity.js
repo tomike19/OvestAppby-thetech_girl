@@ -22,7 +22,7 @@ const TelegramCommunity = () => {
             <img src={tele3} alt="" />
           </Col>
           <Col
-            className="tele-members tele-member1 d-xs-none d-sm-none d-md-block d-lg-block"
+            className="tele-members tele-member1 d-xs-none d-md-none d-sm-none d-xs-none"
             lg={12}
             md={12}
             sm={12}
